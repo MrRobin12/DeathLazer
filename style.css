@@ -10,8 +10,10 @@ body {
     min-width:375px;
     max-width:800px
 }
-#container {
-    
+a {
+    color: lawngreen;
+    text-decoration: none;
+    line-height: 140%;
 }
 
 p:last-child {
@@ -25,6 +27,8 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+    word-wrap: break-word;
+    width: 600px;
 }
 li {
 	background: #583877;
