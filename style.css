@@ -10,10 +10,16 @@ body {
     min-width:375px;
     max-width:800px
 }
+#wrapper {
+    width: 580px;
+    margin: auto;
+    background: #482e60;
+}
 a {
+    font-size: 95%;
     color: lawngreen;
     text-decoration: none;
-    line-height: 140%;
+    line-height: 150%;
 }
 
 p:last-child {
@@ -26,12 +32,33 @@ p1 {
 	color: #73f731;
 	margin-bottom: 0;
 }
+p2{
+    text-align: center;
+    text-align-last: center;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+p3 {
+    font-size: 75%;
+}
 ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
     word-wrap: break-word;
     width: 600px;
+}
+ul2 {
+    
+}
+ul2.list
+{
+    list-style: disc;
+    font-size: 80%;
+    padding: 0px 100px 0px 100px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
 }
 li {
 	background: #583877;
@@ -51,7 +78,7 @@ h1 {
 h3 {
 	margin-top: 0;
 	font-size: 1.35em;
-	color: #c1c1c1;
+	color: #ededed;
 }
 img {
 	width: 100%;
