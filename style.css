@@ -18,6 +18,9 @@ a {
 
 p:last-child {
 	margin-bottom: 0;
+    margin: 0;
+    word-wrap: break-word;
+    width: 560px;
 }
 p1 {
 	color: #73f731;
@@ -27,6 +30,8 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+    word-wrap: break-word;
+    width: 600px;
 }
 li {
 	background: #583877;
