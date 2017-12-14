@@ -5,15 +5,10 @@ body {
 	color: #ffffff;
 	background: #482e60;
 	font-family: sans-serif;
-    width:100%;
-    margin:auto;
-    min-width:375px;
-    max-width:800px
-}
-#wrapper {
-    width: 580px;
-    margin: auto;
-    background: #482e60;
+    	width:100%;
+    	margin:auto;
+    	min-width:375px;
+    	max-width:800px
 }
 a {
     color: lawngreen;
